@@ -6,7 +6,7 @@ Bored with same animation for activity transition? Animatoo is a lightweight and
 A lightweight, easy-to-use Android library that provides awesome activity transition animations
 
 ## Video Tutorial Link:
-https://youtu.be/M67KH9clHHc
+
 
 ## Screenshots
 <img src="https://github.com/mohammadatif/Animatoo/blob/master/Screen%20Shots/Card.gif" width="190" height="270" />
