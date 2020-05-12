@@ -1,4 +1,4 @@
-# Animatoo
+# IntentAnimation ( Activity Change Animation)
 Bored with same animation for activity transition? Animatoo is a lightweight and easy to use Android library that provides many activity transition animations
 * min SDK 16 (Android Jellybean 4.1)
 * written in Java
@@ -52,32 +52,32 @@ Animatoo has 15 different activity transition animations:
 Using Animatoo is extremely simple, A single short line of code following startActivity(...) is all that's needed, for example:
 ```java
 startActivity(new Intent(context, TargetActivity.class));
-Animatoo.animateZoom(context);  //fire the zoom animation
+IntentAnimation.animateZoom(context);  //fire the zoom animation
 ```
 Another example, this time firing the animation when the back button is pressed:
 ```java
 @Override
 public void onBackPressed(){
   super.onBackPressed();
-  Animatoo.animateSlideLeft(context); //fire the slide left animation
+  IntentAnimation.animateSlideLeft(context); //fire the slide left animation
 }
 ```
 All the available methods for this library:
 ```java
-Animatoo.animateZoom(context);
-Animatoo.animateFade(context);
-Animatoo.animateWindmill(context);
-Animatoo.animateSpin(context);
-Animatoo.animateDiagonal(context);
-Animatoo.animateSplit(context);
-Animatoo.animateShrink(context);
-Animatoo.animateCard(context);
-Animatoo.animateInAndOut(context);
-Animatoo.animateSwipeLeft(context);
-Animatoo.animateSwipeRight(context);
-Animatoo.animateSlideLeft(context);
-Animatoo.animateSlideRight(context);
-Animatoo.animateSlideDown(context);
-Animatoo.animateSlideUp(context);
+IntentAnimation.animateZoom(context);
+IntentAnimation.animateFade(context);
+IntentAnimation.animateWindmill(context);
+IntentAnimation.animateSpin(context);
+IntentAnimation.animateDiagonal(context);
+IntentAnimation.animateSplit(context);
+IntentAnimation.animateShrink(context);
+IntentAnimation.animateCard(context);
+IntentAnimation.animateInAndOut(context);
+IntentAnimation.animateSwipeLeft(context);
+IntentAnimation.animateSwipeRight(context);
+IntentAnimation.animateSlideLeft(context);
+IntentAnimation.animateSlideRight(context);
+IntentAnimation.animateSlideDown(context);
+IntentAnimation.animateSlideUp(context);
 
 ```
